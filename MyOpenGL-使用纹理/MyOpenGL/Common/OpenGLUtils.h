@@ -12,7 +12,6 @@
 @interface OpenGLUtils : NSObject
 
 + (GLuint)createTexture2DWithImageName:(NSString *)imageName;
-+ (Byte *)getImagePixelWithPath:(NSString *)imagePath width:(float *)width height:(float *)height;
 
 + (GLuint)createVertexBuffersObjectWithObjType:(GLenum)objType ObjSize:(int)objSize Usage:(GLenum)usage Data:(GLvoid *)data;
 
